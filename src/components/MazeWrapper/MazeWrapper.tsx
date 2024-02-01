@@ -4,7 +4,7 @@ import { MazeDetailsProps, getMaze, postNextMoveInMaze } from "../../api/maze";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useGameStatus } from "../../contexts/GameSettingsProvider";
-import "./MazeWrapper.styles.css";
+import "./mazewrapper.styles.css";
 import Row from "../MazeRow/MazeRow";
 import LoadingIcon from "../LoadingIcon/LoadingIcon";
 import StartScreen from "../StartScreen/StartScreen";
