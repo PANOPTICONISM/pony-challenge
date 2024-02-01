@@ -1,0 +1,28 @@
+.base-button {
+    border: 1px solid var(--primary-colour);
+    background-color: var(--background-colour);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.start-button {
+    font-size: 30px;
+    padding: 20px 40px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
+    transition: .2s ease-in-out 0s;
+    max-width: 270px;
+    margin: 25px auto 10px auto;
+}
+
+.start-button:hover {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 400px) {
+    .start-button {
+        font-size: 18px;
+    }
+}

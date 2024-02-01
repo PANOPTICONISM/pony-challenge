@@ -1,0 +1,23 @@
+.wrapper {
+    padding: 0 20px 20px 20px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.wrapper main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+    display: grid;
+}
+
+.button-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: inherit;
+    max-width: 270px;
+}

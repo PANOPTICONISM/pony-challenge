@@ -1,0 +1,28 @@
+.walls {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.north {
+    border-top: 1px solid var(--primary-colour);
+}
+
+.south {
+    border-bottom: 1px solid var(--primary-colour);
+}
+
+.west {
+    border-left: 1px solid var(--primary-colour);
+}
+
+.east {
+    border-right: 1px solid var(--primary-colour);
+}
+
+.element {
+    width: 35px;
+    height: 35px;
+}

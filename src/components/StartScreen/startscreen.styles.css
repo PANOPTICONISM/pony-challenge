@@ -1,0 +1,17 @@
+.introduction {
+    max-width: 600px;
+    padding: 35px;
+    border: 1px solid var(--primary-colour);
+}
+
+.introduction h2 {
+    margin-bottom: 0;
+}
+
+.introduction h2:first-of-type {
+    margin-top: 0;
+}
+
+.introduction p:last-of-type {
+    margin-bottom: 0;
+}
